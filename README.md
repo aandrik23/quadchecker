@@ -24,7 +24,7 @@ Replace  `URL_OF_REPOSITORY`  with the actual **URL of the repository** and  `DI
 Navigate to the directory containing the  **`Quads`**  subdirectory and use the builder file to compile and make the  **`quad`**  functions and the  **`quadchecker`**  utility executable:
 
 ```
-go run QuidBuilder/builder.go /filepath/to/Quads
+go run QuadBuilder/builder.go /filepath/to/Quads
 ``` 
 
 This command will compile all necessary  `.go`  files in the  **`Quads`**  directory and set the appropriate executable permissions. The builder script automates the process of making files executable, ensuring that all components are ready to use.
